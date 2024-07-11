@@ -1,0 +1,23 @@
+@import './variables';
+@import './font';
+@import './components';
+@import './layout/header';
+@import './layout/footer';
+
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Rubik', sans-serif, Helvetica, Arial;
+}
+
+body {
+    background-color: $background-color;
+    color: $text-color;
+}
+
+a {
+    text-decoration: none;
+    color: $link-color;
+}

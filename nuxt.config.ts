@@ -1,6 +1,9 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
+  css: [
+    '/assets/scss/app.scss'
+  ],
   app: {
     head: {
       title: 'LYTEX MEDIA',
@@ -16,7 +19,7 @@ export default defineNuxtConfig({
         { property: 'og:image:width', content: '256' },
         { property: 'og:image:height', content: '256' },
         { name: 'description', content: 'LYTEX MEDIA konvertiert Kaffee mit seinem Koffein in hochwertigen Code & Software!' },
-        { name: 'theme-color', content: '#aa42f5' },
+        { name: 'theme-color', content: '#7c43d7' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:image', content: 'lytexmedia.svg' },
         { property: 'og:title', content: 'LYTEX MEDIA' },
