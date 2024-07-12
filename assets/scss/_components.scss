@@ -30,3 +30,28 @@
 	}
 
 }
+
+::selection {
+	background-color: $primary-color;
+	color: #fff;
+}
+
+::-moz-selection {
+	background-color: $primary-color;
+	color: #fff;
+}
+
+::-o-selection {
+	background-color: $primary-color;
+	color: #fff;
+}
+
+::-webkit-selection {
+	background-color: $primary-color;
+	color: #fff;
+}
+
+::-ms-selection {
+	background-color: $primary-color;
+	color: #fff;
+}
