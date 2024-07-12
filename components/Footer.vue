@@ -92,6 +92,7 @@
                 <ul>
                     <li><NuxtLink to="/impressum">Impressum</NuxtLink></li>
                     <li><NuxtLink to="/datenschutz">Datenschutz</NuxtLink></li>
+                    <li><NuxtLink to="/contact">Kontakt</NuxtLink></li>
                 </ul>
             </div>
         </div>

@@ -16,11 +16,6 @@ const showAlert = () => {
 </script>
 
 <style scoped lang="scss">
-#content {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-}
-
 .container {
     padding: 2.5rem 0;
 

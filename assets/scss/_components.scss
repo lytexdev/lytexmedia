@@ -28,7 +28,23 @@
 	&:hover {
 		background-color: lighten($success-color, 15%);
 	}
+}
 
+input, textarea, select {
+	width: 100%;
+	padding: 15px;
+	font-size: 16px;
+	border: unset;
+	border-radius: 5px;
+	background-color: #2c2c2c;
+	color: $text-color;
+	margin-bottom: 20px;
+}
+
+input:focus, textarea:focus, select:focus {
+	border: 1px solid $border-color;
+	border-color: $border-color;
+	outline: none;
 }
 
 ::selection {
