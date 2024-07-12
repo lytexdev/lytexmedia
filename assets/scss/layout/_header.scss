@@ -5,5 +5,7 @@ header {
 
     h1 {
         color: $primary-color;
+        user-select: none;
+        
     }
 }

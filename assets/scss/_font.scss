@@ -2,3 +2,17 @@
     font-family: 'Rubik';
     src: url('/assets/font/Rubik-VariableFont_wght.ttf') format('truetype');
 }
+
+a {
+    text-decoration: none;
+    color: $link-color;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: lighten($link-color, 10%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
