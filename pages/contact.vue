@@ -9,7 +9,7 @@
                 </p>
             </div>
             <form @submit.prevent="submitForm">
-                <div class="form-group">m
+                <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" id="name" v-model="form.name" required />
                 </div>
@@ -65,7 +65,15 @@ const submitForm = async () => {
         console.error(error)
     }
 }
+
+useSeoMeta({
+    title: 'lytexmedia - Kontakt',
+    ogTitle: 'lytexmedia - Kontakt',
+    description: 'Kontaktieren Sie uns einfach über das Kontaktformular und wir werden uns schnellstmöglich bei Ihnen melden.',
+    ogDescription: 'Kontaktieren Sie uns einfach über das Kontaktformular und wir werden uns schnellstmöglich bei Ihnen melden.'
+})
 </script>
+
 
 <style lang="scss" scoped>
 .contact-form {

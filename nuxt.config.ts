@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: 'LYTEX MEDIA',
+      title: 'lytexmedia',
       htmlAttrs: {
         lang: 'de'
       },
@@ -32,15 +32,15 @@ export default defineNuxtConfig({
         { property: 'og:locale', content: 'de_DE' },
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: 'LYTEX MEDIA' },
-        { name: 'description', content: 'LYTEX MEDIA konvertiert Kaffee mit seinem Koffein in hochwertigen Code & Software!' },
+        { name: 'description', content: 'lytexmedia konvertiert Kaffee mit seinem Koffein in hochwertigen Code & Software!' },
         { name: 'theme-color', content: '#7c43d7' },
         { name: 'robots', content: 'index, follow' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:image', content: 'lytexmedia.svg' },
-        { name: 'twitter:title', content: 'LYTEX MEDIA' },
-        { name: 'twitter:description', content: 'LYTEX MEDIA konvertiert Kaffee mit seinem Koffein in hochwertigen Code & Software!' },
-        { property: 'og:title', content: 'LYTEX MEDIA' },
-        { property: 'og:description', content: 'LYTEX MEDIA konvertiert Kaffee mit seinem Koffein in hochwertigen Code & Software!' },
+        { name: 'twitter:title', content: 'lytexmedia' },
+        { name: 'twitter:description', content: 'lytexmedia konvertiert Kaffee mit seinem Koffein in hochwertigen Code & Software!' },
+        { property: 'og:title', content: 'lytexmedia' },
+        { property: 'og:description', content: 'lytexmedia konvertiert Kaffee mit seinem Koffein in hochwertigen Code & Software!' },
         { property: 'og:url', content: 'https://lytexmedia.com' },
       ],
       link: [
@@ -65,5 +65,14 @@ export default defineNuxtConfig({
       ],
       __dangerouslyDisableSanitizers: ['script'],
     }
-  }
+  },
+  sitemap : {
+    hostname: 'https://lytexmedia.com',
+    gzip: true,
+    routes: [
+      '/linkleap',
+      '/coconut',
+      '/contact',
+    ]
+  },
 })

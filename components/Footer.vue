@@ -6,7 +6,6 @@
                     <h3>Quick Links</h3>
                     <ul>
                         <li><NuxtLink to="/">Home</NuxtLink></li>
-                        <li><NuxtLink to="/services">Services</NuxtLink></li>
                         <li><NuxtLink to="/linkleap">LinkLeap</NuxtLink></li>
                         <li><NuxtLink to="/coconut">Coconut</NuxtLink></li>
                         <li><NuxtLink to="/contact">Kontakt</NuxtLink></li>
@@ -91,7 +90,7 @@
                 <p>&copy; 2024 by lytexmedia</p>
                 <ul>
                     <li><NuxtLink to="/impressum">Impressum</NuxtLink></li>
-                    <li><NuxtLink to="/datenschutz">Datenschutz</NuxtLink></li>
+                    <!-- TODO: <li><NuxtLink to="/datenschutz">Datenschutz</NuxtLink></li> -->
                     <li><NuxtLink to="/contact">Kontakt</NuxtLink></li>
                 </ul>
             </div>

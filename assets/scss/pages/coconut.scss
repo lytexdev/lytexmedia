@@ -1,0 +1,76 @@
+.coconut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .coconut-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2.5rem;
+
+        img {
+            width: 86px;
+            height: 86px;
+            margin-right: 1rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #7c43d7;
+        }
+    }
+
+    .coconut-description {
+        font-size: 1.2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .coconut-content {
+        display: flex;
+        justify-content: space-between;
+
+        .coconut-cta,
+        .coconut-infos,
+        .coconut-features {
+            flex: 1;
+            padding: 1rem;
+            border-radius: 10px;
+            background-color: #1e1e1e;
+            margin: 0 1rem;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+        }
+
+        p, li, strong {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: #d5d5d5;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                font-size: 1.2rem;
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+
+            .coconut-cta,
+            .coconut-infos,
+            .coconut-features {
+                margin: 1rem 0;
+            }
+        }
+    }
+}
