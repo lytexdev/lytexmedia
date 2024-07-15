@@ -72,7 +72,8 @@ export default defineNuxtConfig({
     routes: [
       '/linkleap',
       '/coconut',
-      '/contact',
+      '/kontakt',
+      '/impressum',
     ]
   },
 })

@@ -66,8 +66,8 @@
 useSeoMeta({
     title: 'lytexmedia - LinkLeap',
     ogTitle: 'lytexmedia - LinkLeap',
-    description: 'Plane und entdecke unvergessliche Events mit Freunden oder der Community – von privaten Treffen bis hin zu großen öffentlichen Veranstaltungen. Verbinde dich, teile Erinnerungen und finde neue Erlebnisse!',
-    ogDescription: 'Plane und entdecke unvergessliche Events mit Freunden oder der Community – von privaten Treffen bis hin zu großen öffentlichen Veranstaltungen. Verbinde dich, teile Erinnerungen und finde neue Erlebnisse!',
+    description: 'Plane und entdecke unvergessliche Events mit Freunden oder der Community. Verbinde dich, teile Erinnerungen und finde neue Erlebnisse!',
+    ogDescription: 'Plane und entdecke unvergessliche Events mit Freunden oder der Community. Verbinde dich, teile Erinnerungen und finde neue Erlebnisse!',
     ogUrl: 'https://lytexmedia.com/linkleap'
 })
 </script>

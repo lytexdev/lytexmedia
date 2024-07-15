@@ -8,7 +8,7 @@
                         <li><NuxtLink to="/">Home</NuxtLink></li>
                         <li><NuxtLink to="/linkleap">LinkLeap</NuxtLink></li>
                         <li><NuxtLink to="/coconut">Coconut</NuxtLink></li>
-                        <li><NuxtLink to="/contact">Kontakt</NuxtLink></li>
+                        <li><NuxtLink to="/kontakt">Kontakt</NuxtLink></li>
                     </ul>
                 </div>
 
@@ -91,7 +91,7 @@
                 <ul>
                     <li><NuxtLink to="/impressum">Impressum</NuxtLink></li>
                     <!-- TODO: <li><NuxtLink to="/datenschutz">Datenschutz</NuxtLink></li> -->
-                    <li><NuxtLink to="/contact">Kontakt</NuxtLink></li>
+                    <li><NuxtLink to="/kontakt">Kontakt</NuxtLink></li>
                 </ul>
             </div>
         </div>

@@ -2,7 +2,7 @@
     <main class="container">
         <div class="coconut">
             <div class="coconut-logo">
-                <img src="/coconut.svg" alt="Coconut" />
+                <img src="/coconut.svg" alt="Coconut" title="Coconut" />
                 <h1>Coconut</h1>
             </div>
 
@@ -17,7 +17,7 @@
                 <div class="coconut-infos">
                     <h2>Informationen</h2>
                     <p>Coconut ist ein Projekt von <a href="https://lytexmedia.com">lytexmedia</a> und ist unter der MIT-Lizenz veröffentlicht.</p>
-                    <p>Der Quellcode ist auf <a href="https://github.com/ximmanuel/Coconut" target="_blank">GitHub</a> verfügbar.</p>
+                    <p>Der Quellcode ist auf <a title="Coconut Github Repository" href="https://github.com/ximmanuel/Coconut" target="_blank">GitHub</a> verfügbar.</p>
                 </div>
 
                 <div class="coconut-features">
