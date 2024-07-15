@@ -52,29 +52,3 @@ onMounted(() => {
     decodedPhone.value = atob(encodedPhone)
 })
 </script>
-
-<style lang="scss" scoped>
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#imprint {
-    border-radius: 10px;
-    background-color: #1a1a1a;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 1200px;
-    text-align: left;
-    line-height: 2;
-    padding: 4rem;
-
-    h1 {
-        margin-bottom: 20px;
-    }
-
-    p {
-        margin-bottom: 20px;
-    }
-}
-</style>

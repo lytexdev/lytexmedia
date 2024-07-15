@@ -73,28 +73,3 @@ useSeoMeta({
     ogDescription: 'Kontaktieren Sie uns einfach über das Kontaktformular und wir werden uns schnellstmöglich bei Ihnen melden.'
 })
 </script>
-
-
-<style lang="scss" scoped>
-.contact-form {
-    width: 35%;
-
-    .contact-form-head {
-        margin-bottom: 2.5rem;
-
-        h1 {
-            font-size: 24px;
-            margin-bottom: 1rem;
-        }
-
-        p {
-            font-size: 16px;
-        }
-    }
-
-    label {
-        display: block;
-        margin-bottom: 0.5rem;
-    }
-}
-</style>

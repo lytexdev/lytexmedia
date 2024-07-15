@@ -14,21 +14,3 @@ const showAlert = () => {
     alert('Wir sind noch am Bauen!')
 }
 </script>
-
-<style scoped lang="scss">
-.container {
-    padding: 2.5rem 0;
-
-    b {
-        font-size: 22px;
-        font-weight: 400;
-    }
-
-    img {
-        margin-top: 2.5rem;
-        max-height: 328px;
-        max-width: 100%;
-        cursor: pointer;
-    }
-}
-</style>
