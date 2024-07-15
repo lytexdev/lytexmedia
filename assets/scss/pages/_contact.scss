@@ -1,5 +1,5 @@
 .contact-form {
-    width: 35%;
+    width: 75%;
 
     .contact-form-head {
         margin-bottom: 2.5rem;
@@ -17,5 +17,9 @@
     label {
         display: block;
         margin-bottom: 0.5rem;
+    }
+
+    @media screen and (max-width: 1024px) {
+        width: 100%;
     }
 }
