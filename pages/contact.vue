@@ -70,6 +70,7 @@ useSeoMeta({
     title: 'lytexmedia - Kontakt',
     ogTitle: 'lytexmedia - Kontakt',
     description: 'Kontaktieren Sie uns einfach über das Kontaktformular und wir werden uns schnellstmöglich bei Ihnen melden.',
-    ogDescription: 'Kontaktieren Sie uns einfach über das Kontaktformular und wir werden uns schnellstmöglich bei Ihnen melden.'
+    ogDescription: 'Kontaktieren Sie uns einfach über das Kontaktformular und wir werden uns schnellstmöglich bei Ihnen melden.',
+    ogUrl: 'https://lytexmedia.com/contact'
 })
 </script>

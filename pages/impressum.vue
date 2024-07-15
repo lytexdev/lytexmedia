@@ -51,4 +51,12 @@ onMounted(() => {
     decodedAddress.value = atob(encodedAddress)
     decodedPhone.value = atob(encodedPhone)
 })
+
+useSeoMeta({
+    title: 'lytexmedia - Impressum',
+    ogTitle: 'lytexmedia - Impressum',
+    description: 'lytexmedia - Impressum',
+    ogDescription: 'lytexmedia - Impressum',
+    ogUrl: 'https://lytexmedia.com/impressum'
+})
 </script>
