@@ -1,0 +1,25 @@
+.nav-main {
+    display: flex;
+
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin-right: 1rem;
+
+            a {
+                color: $text-color;
+                text-decoration: none;
+                transition: color 0.3s;
+                font-size: 1.1rem;
+
+                &:hover {
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+}

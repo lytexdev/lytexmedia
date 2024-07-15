@@ -9,8 +9,9 @@ a {
 }
 
 a:hover {
+    transition: color 0.3s;
     text-decoration: underline;
-    color: lighten($link-color, 10%);
+    color: $secondary-color;
 }
 
 h1, h2, h3, h4, h5, h6 {
