@@ -2,7 +2,7 @@
     <main class="container">
         <div class="contact-form">
             <div class="contact-form-head">
-                <h1>Kontaktanfrage</h1>
+                <h1>Kontakt</h1>
                 <p>
                     Sie haben Fragen oder möchten uns eine Nachricht zukommen lassen? Nutzen Sie einfach das Kontaktformular
                     und wir werden uns schnellstmöglich bei Ihnen melden.
@@ -71,6 +71,6 @@ useSeoMeta({
     ogTitle: 'lytexmedia - Kontakt',
     description: 'Kontaktieren Sie uns einfach über das Kontaktformular und wir werden uns schnellstmöglich bei Ihnen melden.',
     ogDescription: 'Kontaktieren Sie uns einfach über das Kontaktformular und wir werden uns schnellstmöglich bei Ihnen melden.',
-    ogUrl: 'https://lytexmedia.com/contact'
+    ogUrl: 'https://lytexmedia.com/kontakt'
 })
 </script>

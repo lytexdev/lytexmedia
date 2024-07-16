@@ -31,7 +31,7 @@ export default defineNuxtConfig({
         { property: 'og:image:height', content: '256' },
         { property: 'og:locale', content: 'de_DE' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:site_name', content: 'LYTEX MEDIA' },
+        { property: 'og:site_name', content: 'lytexmedia' },
         { name: 'description', content: 'lytexmedia konvertiert Kaffee mit seinem Koffein in hochwertigen Code & Software!' },
         { name: 'theme-color', content: '#7c43d7' },
         { name: 'robots', content: 'index, follow' },
@@ -44,7 +44,7 @@ export default defineNuxtConfig({
         { property: 'og:url', content: 'https://lytexmedia.com' },
       ],
       link: [
-        { rel: 'icon', type: 'image/svg+xml', sizes: '128x128', href: 'lytexmedia.svg' },
+        { rel: 'icon', type: 'image/svg+xml', sizes: '128x128', href: 'https://lytexmedia.com/lytexmedia.svg' },
         { rel: 'canonical', href: 'https://lytexmedia.com' },
         { rel: 'alternate', href: 'https://lytexmedia.com', hreflang: 'de' }
       ],
@@ -54,7 +54,7 @@ export default defineNuxtConfig({
           innerHTML: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "LYTEX MEDIA",
+            "name": "lytexmedia",
             "url": "https://lytexmedia.com",
             "logo": "https://lytexmedia.com/lytexmedia.svg",
             "sameAs": [
