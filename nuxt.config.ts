@@ -37,7 +37,7 @@ export default defineNuxtConfig({
         { name: 'robots', content: 'index, follow' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:image', content: 'lytexmedia.svg' },
-        { name: 'twitter:title', content: 'https://lytexmedia.com/lytexmedia.svg' },
+        { name: 'twitter:title', content: 'lytexmedia' },
         { name: 'twitter:description', content: 'lytexmedia konvertiert Kaffee mit seinem Koffein in hochwertigen Code & Software! Wir sind das Team hinter LinkLeap und Coconut.' },
         { property: 'og:title', content: 'lytexmedia' },
         { property: 'og:description', content: 'lytexmedia konvertiert Kaffee mit seinem Koffein in hochwertigen Code & Software! Wir sind das Team hinter LinkLeap und Coconut.' },
