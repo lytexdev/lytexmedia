@@ -81,8 +81,8 @@
 
                 <div class="footer-section contact">
                     <h3>Kontakt</h3>
-                    <p>Email: <a href="mailto:contact@lytexmedia.com">contact@lytexmedia.com</a></p>
                     <p>Discord: <a href="https://discord.com/users/510708544425951233" target="_blank">_lytex_</a></p>
+                    <p>Email: <a href="mailto:contact@lytexmedia.com">contact@lytexmedia.com</a></p>
                 </div>
             </div>
 

@@ -34,14 +34,7 @@
         justify-content: space-between;
         flex-wrap: wrap;
 
-        .linkleap-section {
-            flex: 1 1 calc(33.333% - 10px);
-            margin: 1rem;
-            padding: 1.5rem;
-            background-color: #1e1e1e;
-            border-radius: 10px;
-            text-align: left;
-    
+        .row-section {
             h2 {
                 color: #17ca89;
                 margin-bottom: 1rem;
@@ -54,17 +47,17 @@
         }
     }
 
-    @media screen and (max-width: 768px) {
-        .linkleap-description {
-            font-size: 1.5rem;
-        }
-        
+    @media screen and (max-width: 768px) {        
         h2 {
             font-size: 1.35rem;
         }
 
         p {
             font-size: 0.9rem !important;
+        }
+
+        .linkleap-description {
+            font-size: 1.1rem !important;
         }
     }
 }

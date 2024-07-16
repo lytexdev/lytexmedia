@@ -57,6 +57,7 @@ useSeoMeta({
     ogTitle: 'lytexmedia - Impressum',
     description: 'lytexmedia - Impressum',
     ogDescription: 'lytexmedia - Impressum',
+    twitterDescription: 'lytexmedia - Impressum',
     ogUrl: 'https://lytexmedia.com/impressum'
 })
 </script>

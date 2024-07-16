@@ -4,15 +4,7 @@
             <b>Website ist aktuell im Aufbau!</b>
             <b><br>Klick dich am besten in der Navigation rum ;)</b>
 
-            <img @click="showAlert()" title="Aktuell im Aufbau!"
-                src="https://media1.tenor.com/m/7Qff-aO5G0QAAAAd/genba-neko.gif" alt="Builder cats"
-                loading="lazy">
+            <img title="Aktuell im Aufbau!" src="/images/programming-cat.webp" alt="Aktuell im Aufbau!" loading="lazy">
         </div>
     </main>
 </template>
-
-<script setup lang="ts">
-const showAlert = () => {
-    alert('Wir sind noch am Bauen!')
-}
-</script>

@@ -10,15 +10,15 @@
             </div>
             <form @submit.prevent="submitForm">
                 <div class="form-group">
-                    <label for="name">Name:</label>
+                    <label for="name">Name: (erforderlich)</label>
                     <input type="text" id="name" v-model="form.name" required />
                 </div>
                 <div class="form-group">
-                    <label for="email">E-Mail:</label>
+                    <label for="email">E-Mail: (erforderlich)</label>
                     <input type="email" id="email" v-model="form.email" required />
                 </div>
                 <div class="form-group">
-                    <label for="message">Nachricht:</label>
+                    <label for="message">Nachricht: (erforderlich)</label>
                     <textarea id="message" v-model="form.message" minlength="75" maxlength="3000" required></textarea>
                 </div>
                 <button type="submit" class="btn">Senden</button>
@@ -71,6 +71,7 @@ useSeoMeta({
     ogTitle: 'lytexmedia - Kontakt',
     description: 'Kontaktieren Sie uns einfach über das Kontaktformular und wir werden uns schnellstmöglich bei Ihnen melden.',
     ogDescription: 'Kontaktieren Sie uns einfach über das Kontaktformular und wir werden uns schnellstmöglich bei Ihnen melden.',
+    twitterDescription: 'Kontaktieren Sie uns einfach über das Kontaktformular und wir werden uns schnellstmöglich bei Ihnen melden.',
     ogUrl: 'https://lytexmedia.com/kontakt'
 })
 </script>
