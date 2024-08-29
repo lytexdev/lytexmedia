@@ -14,7 +14,7 @@
             <p>
                 <b>Kontakt:</b><br>
                 Telefon: <span>{{ decodedPhone }}</span><br />
-                E-Mail: <a href="mailto:contact@lytexmedia.com">contact@lytexmedia.com</a>
+                E-Mail: <a href="mailto:immanuel@lytex.dev">immanuel@lytex.dev</a>
             </p>
             <p>
                 <b>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</b><br>

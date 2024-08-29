@@ -7,7 +7,6 @@
                     <ul>
                         <li><NuxtLink to="/">Home</NuxtLink></li>
                         <li><NuxtLink to="/linkleap">LinkLeap</NuxtLink></li>
-                        <li><NuxtLink to="/coconut">Coconut</NuxtLink></li>
                         <li><NuxtLink to="/kontakt">Kontakt</NuxtLink></li>
                     </ul>
                 </div>
@@ -80,7 +79,7 @@
                 <div class="footer-section contact">
                     <h3>Kontakt</h3>
                     <p>Discord: <a href="https://discord.com/users/510708544425951233" target="_blank">_lytex_</a></p>
-                    <p>Email: <a href="mailto:contact@lytexmedia.com">contact@lytexmedia.com</a></p>
+                    <p>Email: <a href="mailto:immanuel@lytex.dev">immanuel@lytex.dev</a></p>
                 </div>
             </div>
 
@@ -88,7 +87,6 @@
                 <p>&copy; 2024 by lytexmedia</p>
                 <ul>
                     <li><NuxtLink to="/impressum">Impressum</NuxtLink></li>
-                    <!-- TODO: <li><NuxtLink to="/datenschutz">Datenschutz</NuxtLink></li> -->
                     <li><NuxtLink to="/kontakt">Kontakt</NuxtLink></li>
                 </ul>
             </div>

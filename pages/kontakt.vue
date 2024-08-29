@@ -4,7 +4,8 @@
             <div class="contact-form-head">
                 <h1>Kontakt</h1>
                 <p>
-                    Sie haben Fragen oder möchten uns eine Nachricht zukommen lassen? Nutzen Sie einfach das Kontaktformular
+                    Sie haben Fragen oder möchten uns eine Nachricht zukommen lassen? Nutzen Sie einfach das
+                    Kontaktformular
                     und wir werden uns schnellstmöglich bei Ihnen melden.
                 </p>
             </div>
@@ -38,7 +39,7 @@ const form = ref({
 
 const submitForm = async () => {
     const emailData = {
-        to: 'contact@lytexmedia.com',
+        to: 'immanuel@lytex.dev',
         subject: 'Kontaktformular Nachricht',
         text: `Name: ${form.value.name}\nE-Mail: ${form.value.email}\n\n\nNachricht: ${form.value.message}`
     }

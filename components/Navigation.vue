@@ -3,7 +3,6 @@
         <ul>
             <li><NuxtLink to="/">Home</NuxtLink></li>
             <li><NuxtLink to="/linkleap">LinkLeap</NuxtLink></li>
-            <li><NuxtLink to="/coconut">Coconut</NuxtLink></li>
             <li><NuxtLink to="/kontakt">Kontakt</NuxtLink></li>
         </ul>
     </nav>
